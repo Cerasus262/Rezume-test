@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    background: rgb(39, 39, 39);
+}
+
+img {
+    width: 350px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 14px rgb(0 0 0 / 25%);
+}
+
+.info {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.logo {
+    padding: 10px 30px;
+    line-height: 2em;
+    margin-left: 25px;
+    padding-top: 40px;
+}
+
+.container {
+    margin: 10px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    font-weight: normal;
+    color: white;
+    margin: auto;
+    max-width: 950px;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+
+.card {
+    padding: 10px;
+    background: rgb(150, 150, 150);
+    margin: 10px;
+    border-radius: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+
+}
+
+a {
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+    color: black;
+}
+
+.hobby {
+    background: rgb(77, 77, 77);
+
+}
+
+.hobby ol {
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.hobby li {
+
+    border-bottom: 1.5px solid rgb(190, 190, 190);
+    margin-bottom: 10px;
+}
+
+.work {
+    background: rgb(92, 92, 92);
+
+}
+
+.work h3 {
+    text-align: center;
+}
+
+.work table {
+    width: 100%;
+}
+
+.work td {
+    padding-bottom: 10px;
+}
+
+.form {
+    background: rgb(158, 158, 158);
+}
+
+.form h3 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 2.5px solid rgb(190, 190, 190);
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.btn {
+    background: rgb(209, 50, 50);
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    color: black;
+}

@@ -1,0 +1,34 @@
+.test {
+    background: rgb(78, 78, 78);
+}
+
+.test h3 {
+    text-align: center;
+}
+
+.form-name {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-name .form-grou {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-grou label {
+    display: block;
+}
+
+.form-grou input,
+.form-grou textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid rgb(168, 168, 168);
+    color: rgb(0, 0, 0);
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
