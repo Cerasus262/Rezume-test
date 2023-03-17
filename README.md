@@ -2,4 +2,4 @@
 
 ## Результат можно посмотреть тут
 
-[Моя первая работа](http://127.0.0.1:5500/REZUMEv2/index.html?)
+[Моя первая работа](https://cerasus262.github.io/Rezume-test/)
